@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="f280180b-aa9c-44fb-a9c0-743fc26730f7"
+  name="View" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="3f820463-d6d8-4fb9-a428-a1d5e976ddd5"
+        name="MainWindow"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="17e5facc-c096-4142-941d-84c2436a9626"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fjohan%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGoudkoorts%2FGoudkoorts%2Fbin%2FDebug%2FGoudkoorts.exe&quot; Namespace%3DGoudkoorts Type%3DMainWindow"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c649db54-95d2-480d-a3dc-1208ecc691cf"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5b360061-67bb-4396-a85b-e5cbf782d62a">
+                <propertyInstance
+                  Id="778da1e2-0edf-4efa-bba8-8c012d4f4afe"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="41345f87-45ad-4573-a4ca-2651032fcfc4">
+                <propertyInstance
+                  Id="f690d8a5-b916-4d50-88e3-c3654c76e20b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cfc9aa51-bcda-4f06-be23-83cd9980f488">
+                <propertyInstance
+                  Id="21367133-73f4-499a-b7e9-043d8e59343c"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="17b07060-6ddc-4bc4-bd11-705a4158ce83">
+                <propertyInstance
+                  Id="76fb94ba-d4ad-4aeb-ba8e-f8b90601eb32"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e1988fbe-d800-4691-8af5-3f6b51e91b72">
+                <propertyInstance
+                  Id="6fed7f61-60dc-4007-8f04-1eff795003e9"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="47305f4e-129b-45e1-b664-920a5f86d6c1">
+            <interfaceMoniker
+              Id="bb4a296f-16bd-4476-93e2-5163b93c40ac"
+              LastKnownName="IComponentConnector"
+              LastKnownLocation="Package3_1050.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization
+            Id="fa795b06-4b7c-4f9b-a41b-037bac9abdbd"
+            isSubstitutable="false">
+            <classMoniker
+              Id="cb0fc04f-9e20-4349-8c9b-a38e724b6478"
+              LastKnownName="Window"
+              LastKnownLocation="Package2_1050.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="cfb25529-8b9c-4d6e-b3fa-5e9d13400987"
+            name="_contentLoaded"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a8dd10be-d6f0-4109-bde4-f6f5186440ea"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fjohan%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGoudkoorts%2FGoudkoorts%2Fbin%2FDebug%2FGoudkoorts.exe&quot; Namespace%3DGoudkoorts Type%3DMainWindow Member%3D_contentLoaded"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="72ede72e-f415-479f-a99a-0ab39e6f12bb"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ec8cc4a-917a-492a-938b-2d30fa897323">
+                    <propertyInstance
+                      Id="31352cdb-15d4-4721-b10c-61c09a25a621"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="23135fe7-b24d-4881-ad17-3f193e002282">
+                    <propertyInstance
+                      Id="f683668a-da97-4ea0-912b-d5287a9b7118"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2565c544-e053-4532-84f8-a8a50f7b2cc2">
+                    <propertyInstance
+                      Id="ba543dfb-7e09-450e-a779-80ac38696ce4"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2cd459cf-3fa0-4623-9516-582c2c5a0530">
+                    <propertyInstance
+                      Id="77d348fc-2f29-4e32-810c-777d301b4b1c"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db67f7c9-4f96-4913-b5c4-1cd29672dc66">
+                    <propertyInstance
+                      Id="8097c402-7408-42ac-bcdb-922ce37f15a5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                LastKnownName="Boolean"
+                LastKnownLocation="Class Diagram.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="d100a991-1e8e-432e-8aa8-a8a893f10bcc"
+            name="InitializeComponent"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="72279cac-cf12-4ab5-b567-2a8252ef23f6"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fjohan%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGoudkoorts%2FGoudkoorts%2Fbin%2FDebug%2FGoudkoorts.exe&quot; Namespace%3DGoudkoorts Type%3DMainWindow Member%3DInitializeComponent"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="698bf011-8f90-496a-8981-a10be7914a57"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ef70289-2be0-4e67-9cf3-4adce627e4a1">
+                    <propertyInstance
+                      Id="f39e904e-7f5f-41e7-8723-75c79e2ee52d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64bb4bb0-2f21-4aa8-a9f2-7ff8c0946eb9">
+                    <propertyInstance
+                      Id="52f35c21-9a06-411e-b4e8-ff0a69ef7929"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="52563c09-2ba3-497b-a6d6-19c6279c5420">
+                    <propertyInstance
+                      Id="59c1dbcc-27d3-4f3f-824c-722c801ed151"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1fb1d1c-5c07-4177-9921-e7eb80a06676">
+                    <propertyInstance
+                      Id="44f91736-1dd9-44ba-830e-30173951e9d7"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8dd7bf45-95dc-45ca-8672-1a7d4bcd981d">
+                    <propertyInstance
+                      Id="54cdc397-a3cc-46bb-a0ef-f885812b9bac"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b0bf293c-fc37-4737-a3bf-9c0a7b978838">
+                    <propertyInstance
+                      Id="b917c99b-ca83-49d9-9d2a-207f48152d42"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="ef56d6e9-fccc-4738-966a-79532dc3f92e"
+            name="System‎.Windows‎.Markup‎.IComponentConnector‎.Connect"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9daf332a-9437-41f3-83b2-28517adb96a1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fjohan%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGoudkoorts%2FGoudkoorts%2Fbin%2FDebug%2FGoudkoorts.exe&quot; Namespace%3DGoudkoorts Type%3DMainWindow Member%3D(Name%3DSystem.Windows.Markup.IComponentConnector.Connect OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="654ab0e0-797a-416a-8113-0356a9902607"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="483606d1-72b8-42ba-88f4-6ff75e25df4d">
+                    <propertyInstance
+                      Id="be1f386b-2c4d-4406-9e8f-8165c31a9476"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="63c809e3-c1db-43d7-97a4-8d75e74a538e">
+                    <propertyInstance
+                      Id="258e2272-6a93-4938-84b7-994c9d646c6d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1a0d6594-5d21-4cfc-8fbb-770a20b16423">
+                    <propertyInstance
+                      Id="d510b220-069b-470c-8856-04f6ba787cd3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6e82c568-327a-4e6d-977c-4c462e5a2f91">
+                    <propertyInstance
+                      Id="b50bd9d5-d71d-489a-bf28-f0ddaf27f534"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0aa05e4d-c9d2-4a69-9aad-1884014082a1">
+                    <propertyInstance
+                      Id="c1d55100-a540-42d8-87bb-0a632f8bd030"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9811e6ee-e05e-48f0-b22a-3152c1221382">
+                    <propertyInstance
+                      Id="89583be0-6eb5-4ed2-88a9-b191529b4751"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ed38251e-8717-40d0-b7da-6c42ac9af242"
+                  name="connectionId"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="bf780ec5-afa4-4bbb-9922-92e5c174a090"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fjohan%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGoudkoorts%2FGoudkoorts%2Fbin%2FDebug%2FGoudkoorts.exe&quot; Namespace%3DGoudkoorts Type%3DMainWindow Member%3D(Name%3DSystem.Windows.Markup.IComponentConnector.Connect OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]) ParameterIdentifier%3DconnectionId"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="Class Diagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d8ebc750-eecc-43cc-b591-3f3bc06c933b"
+                  name="target"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="be52b6c9-4ea5-4e1a-8461-81e3b6adeac9"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fjohan%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGoudkoorts%2FGoudkoorts%2Fbin%2FDebug%2FGoudkoorts.exe&quot; Namespace%3DGoudkoorts Type%3DMainWindow Member%3D(Name%3DSystem.Windows.Markup.IComponentConnector.Connect OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]) ParameterIdentifier%3Dtarget"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="84d7a121-6c42-4d6d-bc0b-21cee11ea826"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package1_1050.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="57c43aa3-bef4-4438-b4ed-e0c7f73dc142"
+            name="MainWindow"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c5de53d2-0c53-42a8-b871-5db8752221aa"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fjohan%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGoudkoorts%2FGoudkoorts%2Fbin%2FDebug%2FGoudkoorts.exe&quot; Namespace%3DGoudkoorts Type%3DMainWindow Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="572c825a-6db7-4514-af81-573a0ebf5de9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4740d83f-4a60-40ea-8eb8-8df4c8071601">
+                    <propertyInstance
+                      Id="7f31170e-7fb6-4096-940d-b3445908dd63"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71170fc6-a688-40f4-8b91-241b02875cc8">
+                    <propertyInstance
+                      Id="8106fddf-07bf-4c6f-b711-57881288aadf"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6cb22cf6-eda8-4da9-b1aa-4bfced05bccb">
+                    <propertyInstance
+                      Id="33826627-daf2-43fc-bd18-4d7d9981a098"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="458ac422-6454-44c1-8241-cbb74bb62bc6">
+                    <propertyInstance
+                      Id="9c0c21c8-a8ca-4495-b087-4972bc87aa76"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e15ce017-a93b-41f3-a08c-01982787a6d5">
+                    <propertyInstance
+                      Id="efa70d17-81b8-4518-a4e0-edec315eb924"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed327000-d906-4f65-afeb-a2f1cc7ba15e">
+                    <propertyInstance
+                      Id="70fb9a79-9725-4a13-ba50-05e27584b6ea"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="38d74a14-80d0-40f7-87a7-2b1d09e95f5a"
+        name="Railway"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="3c13af1e-da93-4f76-af98-e4ba889062e5"
+            isDerived="false"
+            sourceEndRoleName="Railway"
+            targetEndRoleName="MainWindow"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="3f820463-d6d8-4fb9-a428-a1d5e976ddd5"
+              LastKnownName="MainWindow"
+              LastKnownLocation="Package_1056.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0a132122-67ff-4e78-b02e-f3f769c32b84"
+                  name="Railway"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6429ff4e-35ce-46e7-a194-ff6fc3f22e8e"
+                  name="MainWindow"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="3cd71c2b-6c8d-4933-8b81-2901bdd37085"
+        name="Dock"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="02368389-3a59-4563-a22f-c8b83c77d78f"
+            isDerived="false"
+            sourceEndRoleName="Dock"
+            targetEndRoleName="MainWindow"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="3f820463-d6d8-4fb9-a428-a1d5e976ddd5"
+              LastKnownName="MainWindow"
+              LastKnownLocation="Package_1056.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="88b471f6-03d3-4544-b275-d0e4ee46a1ef"
+                  name="Dock"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="dd2ef324-890d-4aa4-8b06-89ea6f73afec"
+                  name="MainWindow"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

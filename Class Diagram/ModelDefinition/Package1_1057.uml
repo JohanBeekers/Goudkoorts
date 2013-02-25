@@ -15,8 +15,8 @@
           <association
             Id="ddbdd6b2-e782-4108-a1e8-dfd07d6681d1"
             isDerived="false"
-            sourceEndRoleName="Link"
-            targetEndRoleName="Boat"
+            sourceEndRoleName=""
+            targetEndRoleName=""
             isLeaf="false"
             isAbstract="false">
             <classMoniker
@@ -27,7 +27,6 @@
               <associationHasOwnedEnds>
                 <memberEnd
                   Id="f6e7a25d-3414-491d-a3eb-a1356a749577"
-                  name="Link"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -40,22 +39,34 @@
               <associationHasOwnedEnds>
                 <memberEnd
                   Id="1d261007-c976-430e-a53c-85f1866a01a4"
-                  name="Boat"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
                   isDerived="false"
                   isDerivedUnion="false"
                   aggregation="None"
-                  isComposite="false" />
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="1f53d62c-f40e-4d4a-b82b-be6d3c2d4692"
+                      name="Lower"
+                      value="0" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="4158ceca-d680-4c6d-8d9c-bff939d9eaaa"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>
           <association
             Id="028d8ca6-d176-4c3c-a7c0-f51ac458d5e8"
             isDerived="false"
-            sourceEndRoleName="Link"
-            targetEndRoleName="Link"
+            sourceEndRoleName=""
+            targetEndRoleName=""
             isLeaf="false"
             isAbstract="false">
             <classMoniker
@@ -66,7 +77,6 @@
               <associationHasOwnedEnds>
                 <memberEnd
                   Id="9f9fb6ef-5252-4a78-943e-b881c85ff989"
-                  name="Link"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -79,7 +89,6 @@
               <associationHasOwnedEnds>
                 <memberEnd
                   Id="d2e8c7f6-127f-4ffb-b400-046c5a2df1de"
-                  name="Link"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -103,6 +112,43 @@
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>
+          <association
+            Id="f77f694e-c4c7-418a-b481-958b435915cd"
+            isDerived="false"
+            sourceEndRoleName=""
+            targetEndRoleName=""
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="e5afc890-ad61-402f-aedf-dce3e1848320"
+              LastKnownName="Tile"
+              LastKnownLocation="Package1_1057.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="af90f399-8d3b-4336-99a8-5990349c48b6"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d880a8c7-fe8e-4b0d-ac50-20f58b45d294"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
         </targetEnds>
       </class>
     </packageHasNamedElement>
@@ -122,8 +168,8 @@
           <association
             Id="763b92f0-1cd1-4ed7-a6dc-8682b74a3b36"
             isDerived="false"
-            sourceEndRoleName="Cart"
-            targetEndRoleName="Link"
+            sourceEndRoleName=""
+            targetEndRoleName=""
             isLeaf="false"
             isAbstract="false">
             <classMoniker
@@ -134,7 +180,6 @@
               <associationHasOwnedEnds>
                 <memberEnd
                   Id="d1cbfda2-2b46-48a3-a471-c85cf9586afb"
-                  name="Cart"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -147,7 +192,6 @@
               <associationHasOwnedEnds>
                 <memberEnd
                   Id="30b84d2a-f683-4b4d-a5ff-656d99bb9435"
-                  name="Link"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -192,8 +236,8 @@
           <association
             Id="8edb78e7-3485-49f6-a017-97a70b39f13b"
             isDerived="false"
-            sourceEndRoleName="Boat"
-            targetEndRoleName="BoatLoad"
+            sourceEndRoleName=""
+            targetEndRoleName=""
             isLeaf="false"
             isAbstract="false">
             <classMoniker
@@ -204,7 +248,6 @@
               <associationHasOwnedEnds>
                 <memberEnd
                   Id="53daad5f-7088-41fe-a95a-4f5f9d3b616f"
-                  name="Boat"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -217,7 +260,6 @@
               <associationHasOwnedEnds>
                 <memberEnd
                   Id="855eeab1-0fdb-433d-9496-894fa185aae6"
-                  name="BoatLoad"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -331,6 +373,49 @@
             </type_NamedElement>
           </property>
         </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e5afc890-ad61-402f-aedf-dce3e1848320"
+        name="Tile"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8a9c44cb-99cb-45ea-a7fe-5518d1c74b4c"
+        name="Score"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="9a5427fb-1c15-482b-94c2-0bbe4d22758a"
+        name="Class1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="448ad4ee-06ae-4385-8d3e-0fdf2a24f408"
+        name="Warehouse"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="325ea333-86d5-4f9d-8762-08a65aae36ab"
+            isSubstitutable="false">
+            <classMoniker
+              Id="e5afc890-ad61-402f-aedf-dce3e1848320"
+              LastKnownName="Tile"
+              LastKnownLocation="Package1_1057.uml" />
+          </generalization>
+        </generalsInternal>
       </class>
     </packageHasNamedElement>
   </packagedElements>

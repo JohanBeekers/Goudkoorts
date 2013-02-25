@@ -79,6 +79,46 @@
               LastKnownLocation="Package2_1050.uml" />
           </generalization>
         </generalsInternal>
+        <targetEnds>
+          <association
+            Id="ec8e505c-edd6-4458-8af5-218d7c4d118e"
+            isDerived="false"
+            sourceEndRoleName=""
+            targetEndRoleName=""
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="c58f5081-10de-4691-a41a-41a456f40b6c"
+              LastKnownName="Board"
+              LastKnownLocation="Package_1057.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1f4c003f-9bf1-4fad-a78c-71bc0acac5e9"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cea863af-d7e1-4acf-ba18-75884cd6e6b1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
         <ownedAttributesInternal>
           <property
             Id="cfb25529-8b9c-4d6e-b3fa-5e9d13400987"
@@ -394,50 +434,7 @@
         name="Railway"
         isAbstract="false"
         isLeaf="false"
-        isActiveClass="false">
-        <targetEnds>
-          <association
-            Id="3c13af1e-da93-4f76-af98-e4ba889062e5"
-            isDerived="false"
-            sourceEndRoleName="Railway"
-            targetEndRoleName="MainWindow"
-            isLeaf="false"
-            isAbstract="false">
-            <classMoniker
-              Id="3f820463-d6d8-4fb9-a428-a1d5e976ddd5"
-              LastKnownName="MainWindow"
-              LastKnownLocation="Package_1056.uml" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="0a132122-67ff-4e78-b02e-f3f769c32b84"
-                  name="Railway"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false"
-                  isNavigableOwned="false" />
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="6429ff4e-35ce-46e7-a194-ff6fc3f22e8e"
-                  name="MainWindow"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false"
-                  isNavigableOwned="false" />
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-          </association>
-        </targetEnds>
-      </class>
+        isActiveClass="false" />
     </packageHasNamedElement>
     <packageHasNamedElement>
       <class
@@ -445,24 +442,31 @@
         name="Dock"
         isAbstract="false"
         isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="1341b784-1bb1-40ce-8299-dc47e4cf424e"
+        name="Info"
+        isAbstract="false"
+        isLeaf="false"
         isActiveClass="false">
         <targetEnds>
           <association
-            Id="02368389-3a59-4563-a22f-c8b83c77d78f"
+            Id="7dbedacc-5024-479d-9f81-849887268406"
             isDerived="false"
-            sourceEndRoleName="Dock"
-            targetEndRoleName="MainWindow"
+            sourceEndRoleName=""
+            targetEndRoleName=""
             isLeaf="false"
             isAbstract="false">
             <classMoniker
-              Id="3f820463-d6d8-4fb9-a428-a1d5e976ddd5"
-              LastKnownName="MainWindow"
-              LastKnownLocation="Package_1056.uml" />
+              Id="8a9c44cb-99cb-45ea-a7fe-5518d1c74b4c"
+              LastKnownName="Score"
+              LastKnownLocation="Package1_1057.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd
-                  Id="88b471f6-03d3-4544-b275-d0e4ee46a1ef"
-                  name="Dock"
+                  Id="6d281926-0014-4330-8813-ce7044fd7d0e"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -474,16 +478,14 @@
               </associationHasOwnedEnds>
               <associationHasOwnedEnds>
                 <memberEnd
-                  Id="dd2ef324-890d-4aa4-8b06-89ea6f73afec"
-                  name="MainWindow"
+                  Id="6fbd5cff-ee1c-40b0-b292-49919da45b26"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
                   isDerived="false"
                   isDerivedUnion="false"
                   aggregation="None"
-                  isComposite="false"
-                  isNavigableOwned="false" />
+                  isComposite="false" />
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>
